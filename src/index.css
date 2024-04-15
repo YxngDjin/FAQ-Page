@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: WorkSans;
+        src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf) format('ttf');
+    }
+}
+
+#bg {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    font-size: 14px;
+    
+    
+}
+
+#star {
+    /* transform: scale(0.01); */
+}
